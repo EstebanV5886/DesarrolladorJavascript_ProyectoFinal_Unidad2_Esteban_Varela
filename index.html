@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Registro Estudiantes</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1>Registro Estudiantes</h1>
+        <form id="registro_estudiante">
+        <label for="codigo">Codigo:</label> 
+        <br>
+        <input type="text" id="codigo"/>
+        <br>
+        <label for="nombre">Nombre:</label>   
+        <br>
+        <input type="text" id="nombre"/>
+        <br>
+        <label for="nota">Nota:</label>
+        <br>
+        <input type="text" id="nota"/>
+        <br>
+        <br>
+    </form>
+        <div id="divBtn">
+        <button class="btn" id="registroEstudiantes">Registrar Estudiante</button>
+        <button class="btn" id="promedioEstudiantes">Mostrar Promedio</button>
+        <button class="btn" id="notaMayorEstudiantes">Mostrar Nota Mayor</button>
+        <button class="btn" id="notaMenorEstudiantes">Mostrar Nota Menor</button>
+        </div>
+        <br>
+        <br>
+        <div id="divParrafos">
+        <p id="resultado"></p>
+        <br>
+        <p id="resultadoNotaMayor"></p>
+        <br>
+        <p id="resultadoNotaMenor"></p>
+        </div>
+        <h1>Listado de Estudiantes</h1>
+        <br>
+        <table id="tablaEstudiantes">
+            <thead>
+            <tr>
+                <th>Codigo</th>
+                <th>Nombre</th>
+                <th>Nota</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    <script src="js/javascript.js"></script>
+    </body>
+</html>
